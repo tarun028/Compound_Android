@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893713895097",
+    "project_id": "compound-7c9a9",
+    "storage_bucket": "compound-7c9a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893713895097:android:c5f83e37469c649874d568",
+        "android_client_info": {
+          "package_name": "com.example.compound_vinhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893713895097-h12rqg12dsovas29hreuug0acvtkf6qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOWjSAg4d5UU16yDbx4IWwq3wIttKIlGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893713895097-h12rqg12dsovas29hreuug0acvtkf6qf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
