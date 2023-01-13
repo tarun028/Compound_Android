@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compound_vinhack</string>
+    <string name="deny_permission">Deny permission</string>
+    <string name="mandatory">Mandatory</string>
+</resources>
