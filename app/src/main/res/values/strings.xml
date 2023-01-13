@@ -2,4 +2,6 @@
     <string name="app_name">Compound_vinhack</string>
     <string name="deny_permission">Deny permission</string>
     <string name="mandatory">Mandatory</string>
+    <string name="textview">TextView</string>
+    <string name="otp_verification">OTP Verification</string>
 </resources>
