@@ -6,4 +6,220 @@
     android:layout_height="match_parent"
     tools:context=".graph3">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="120dp"
+        android:elevation="10dp"
+        android:onClick="expand31"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164">
+
+
+
+        <LinearLayout
+            android:id="@+id/layout31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Cap"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar31"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="42"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICICI Pru Nifty 10.0%,DSP Nifty 10.0%"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="250dp"
+        android:elevation="10dp"
+        android:onClick="expand32"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/layout32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commodities"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar32"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="33"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gold_and_silver"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="320dp"
+        android:elevation="10dp"
+        android:onClick="expand33"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goverment Bond"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar33"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="10"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICICI Pru PSU+SDL"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="500dp"
+        android:elevation="10dp"
+        android:onClick="expand34"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutuals funds and SIP"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar34"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="33"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quant Cap"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

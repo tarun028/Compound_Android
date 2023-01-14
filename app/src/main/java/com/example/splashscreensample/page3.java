@@ -20,7 +20,7 @@ public class page3 extends AppCompatActivity {
 
     }
     public void openActivityM(){
-        Intent intent= new Intent(page3.this,MainActivity.class);
+        Intent intent= new Intent(page3.this,SendOTPActivity.class);
         startActivity(intent);
     }
     @Override

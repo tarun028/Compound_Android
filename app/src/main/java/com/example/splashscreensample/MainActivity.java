@@ -20,19 +20,20 @@ String whatsappUser ="+919818941865";
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        card1= (CardView) findViewById(R.id.card1);
-        card2= (CardView) findViewById(R.id.card2);
-        graph1= (CardView) findViewById(R.id.card1);
-        graph2= (CardView) findViewById(R.id.card1);
-        graph3= (CardView) findViewById(R.id.card1);
+        card1= findViewById(R.id.card1);
+        card2= findViewById(R.id.card2);
+        graph1= findViewById(R.id.graph1);
+        graph2= findViewById(R.id.graph2);
+        graph3= findViewById(R.id.graph3);
         help = findViewById(R.id.help);
-        start = findViewById(R.id.help);
+        start = findViewById(R.id.start);
 
         card1.setOnClickListener((View.OnClickListener) this);
         card2.setOnClickListener((View.OnClickListener) this);
         graph1.setOnClickListener((View.OnClickListener) this);
         graph2.setOnClickListener((View.OnClickListener) this);
         graph3.setOnClickListener((View.OnClickListener) this);
+        start.setOnClickListener((View.OnClickListener) this);
         help.setOnClickListener(view -> {
             String url = "https://api.whatsapp.com/send?phone=" + whatsappUser;
             try {
@@ -52,6 +53,7 @@ String whatsappUser ="+919818941865";
 
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View view) {
         Intent i;
@@ -61,6 +63,7 @@ String whatsappUser ="+919818941865";
             case R.id.graph1:i=new Intent(this,graph1.class);startActivity(i); break;
             case R.id.graph2:i=new Intent(this,graph2.class);startActivity(i); break;
             case R.id.graph3:i=new Intent(this,graph3.class);startActivity(i); break;
+            case R.id.start:i=new Intent(this,tabmain.class);startActivity(i); break;
         }
 
     }

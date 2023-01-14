@@ -117,12 +117,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.815">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonGetOTP"
+            android:textColor="#964B00"
+            android:textSize="18sp"
+            android:background="@drawable/back_selector"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="@color/gray"
             android:text="Get OTP"
             android:textAllCaps="false" />
 

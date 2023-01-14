@@ -37,7 +37,7 @@
             android:gravity="center"
             android:text="As our user, you get:"
             android:textColor="#949494"
-            android:textSize="19sp"
+            android:textSize="19sp"/>
 
         <View
             android:layout_width="match_parent"
@@ -69,7 +69,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/icons8_whatsapp" />
+                    android:src="@drawable/whats" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/icons8_pie_chart_80" />
+                    android:src="@drawable/pie" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -162,7 +162,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/ic_sharp_balance_24" />
+                    android:src="@drawable/balance" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -209,7 +209,7 @@
                     android:layout_height="35dp"
                     android:layout_marginStart="12dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/ic_sharp_money_24" />
+                    android:src="@drawable/money" />
 
                 <TextView
                     android:layout_width="match_parent"

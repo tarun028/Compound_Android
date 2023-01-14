@@ -4,4 +4,26 @@
     <string name="mandatory">Mandatory</string>
     <string name="textview">TextView</string>
     <string name="otp_verification">OTP Verification</string>
+    <string name="icici_pru_nifty_index_fund_15_0_dsp_nifty_next_50_index_fund_17_5">ICICI Pru Nifty Index Fund 15.0% DSP Nifty Next 50 Index Fund 17.5%</string>
+    <string name="gold_and_silver">Gold and silver</string>
+    <string name="icici_pru_psu_sdl_40_60_index_15_0_absl_nifty_sdl_psu_60_40_index_20_0_kotak_nifty_sdl_apr_2027_top_12_equal_weight_index_fund_15_0">• ICICI Pru PSU+SDL 40:60 Index 15.0%, ABSL Nifty SDL+PSU 60:40 Index 20.0%, Kotak Nifty SDL Apr 2027 Top 12 Equal Weight Index Fund 15.0%</string>
+    <string name="hdfc_overnight_fund5_8">HDFC Overnight fund5.8%</string>
+    <string name="tata_medium_term_fund">Tata Medium Term Fund</string>
+    <string name="absl_nifty_15_0_kotak_nifty_sdl_15">ABSL Nifty 15.0% , Kotak Nifty SDL 15%</string>
+    <string name="absl_nifty_sdl_psu_60_40_index_5_0_kotak_nifty_sdl_apr_2027_top_12_equal_weight_index_fund_15_0">ABSL Nifty SDL+PSU 60:40 Index -5.0% Kotak Nifty SDL Apr 2027 Top 12 Equal Weight Index Fund 15.0%</string>
+    <string name="tata_small_cap_fund_20_0_templeton_india_value_fund_12_5_icici_pru_dividend_yield_equity_fund_10_0">Tata Small Cap Fund 20.0% , Templeton India Value Fund 12.5%, ICICI Pru Dividend Yield Equity Fund 10.0%</string>
+    <string name="absl_nifty_sdl_psu_60_40_index_5_0">ABSL Nifty SDL+PSU 60:40 Index - 5.0%</string>
+    <string name="pgim_india_midcap">PGIM India Midcap</string>
+    <string name="largeCapText">Large cap refers to a company with a market capitalization value
+        of more than $10 billion. Also referred to as “big cap,” large cap describes a class of
+        popular stocks preferred by investors for their stability.</string>
+    <string name="govtText">A government bond is a debt instrument issued by the Central and State Governments of India.
+        Issuance of such bonds occur when the issuing body (Central or State governments) faces a liquidity crisis and
+        requires funds for the purpose of infrastructure development.</string>
+    <string name="commoditiesText">Stocks denote company ownership, while commodities represent goods that include
+        agricultural products, metals, oil, etc. Both these asset classes reserve sizeable profit-making potential.
+        However, they are traded in different marketplaces.</string>
+    <string name="mutualFundText">A mutual fund is a company that pools money from many investors and invests the
+        money in securities such as stocks, bonds, and short-term debt. The combined holdings of the mutual fund
+        are known as its portfolio. Investors buy shares in mutual funds.</string>
 </resources>

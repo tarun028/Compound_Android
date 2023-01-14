@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    android:text="@string/lorem"
+                    android:text="@string/largeCapText"
                     android:textSize="16sp"/>
 
             </LinearLayout>
@@ -86,7 +86,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    android:text="@string/lorem"
+                    android:text="@string/govtText"
                     android:textSize="16sp"/>
 
             </LinearLayout>
@@ -128,7 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    android:text="@string/lorem"
+                    android:text="@string/commoditiesText"
                     android:textSize="16sp"/>
 
             </LinearLayout>
@@ -171,7 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    android:text="@string/lorem"
+                    android:text="@string/mutualFundText"
                     android:textSize="16sp"/>
 
             </LinearLayout>

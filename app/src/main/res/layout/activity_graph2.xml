@@ -6,4 +6,220 @@
     android:layout_height="match_parent"
     tools:context=".graph2">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="120dp"
+        android:elevation="10dp"
+        android:onClick="expand21"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164">
+
+
+
+        <LinearLayout
+            android:id="@+id/layout21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large Cap"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar21"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="30"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tata Small Cap Fun 20.0% , Templeton India Value Fund 12.5%"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="250dp"
+        android:elevation="10dp"
+        android:onClick="expand22"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/layout22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commodities"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar22"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="30"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gold , Silver , Copper"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="320dp"
+        android:elevation="10dp"
+        android:onClick="expand23"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goverment Bond"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar23"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="27"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABSL Nifty SDL 15.0% , Kotak Nifty SDL 15.0%"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="500dp"
+        android:elevation="10dp"
+        android:onClick="expand24"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/layout24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mutuals funds and SIP"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <ProgressBar
+                android:id="@+id/progressbar24"
+
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                android:focusable="false"
+                android:progress="13"
+
+                style="?android:attr/progressBarStyleHorizontal" />
+
+            <TextView
+                android:id="@+id/detail24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICICI Prudential Technology"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
