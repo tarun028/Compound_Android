@@ -30,6 +30,9 @@ String whatsappUser ="+919818941865";
 
         card1.setOnClickListener((View.OnClickListener) this);
         card2.setOnClickListener((View.OnClickListener) this);
+        graph1.setOnClickListener((View.OnClickListener) this);
+        graph2.setOnClickListener((View.OnClickListener) this);
+        graph3.setOnClickListener((View.OnClickListener) this);
         help.setOnClickListener(view -> {
             String url = "https://api.whatsapp.com/send?phone=" + whatsappUser;
             try {
@@ -55,6 +58,9 @@ String whatsappUser ="+919818941865";
         switch (view.getId()){
             case R.id.card1:i=new Intent(this,portfolio.class);startActivity(i); break;
             case R.id.card2:i=new Intent(this,why.class);startActivity(i); break;
+            case R.id.graph1:i=new Intent(this,graph1.class);startActivity(i); break;
+            case R.id.graph2:i=new Intent(this,graph2.class);startActivity(i); break;
+            case R.id.graph3:i=new Intent(this,graph3.class);startActivity(i); break;
         }
 
     }

@@ -15,6 +15,27 @@
         android:theme="@style/Theme.SplashScreenSample"
         tools:targetApi="31">
         <activity
+            android:name=".graph3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".graph2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".graph1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".perms"
             android:exported="false">
             <meta-data
