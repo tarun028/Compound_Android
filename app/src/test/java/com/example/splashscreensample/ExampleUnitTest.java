@@ -1,4 +1,4 @@
-package com.example.compound_vinhack;
+package com.example.splashscreensample;
 
 import org.junit.Test;
 

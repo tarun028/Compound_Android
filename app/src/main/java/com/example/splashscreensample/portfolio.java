@@ -1,14 +1,14 @@
-package com.example.compound_vinhack;
+package com.example.splashscreensample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class login extends AppCompatActivity {
+public class portfolio extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_portfolio);
     }
 }

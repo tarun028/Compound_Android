@@ -1,4 +1,4 @@
-package com.example.compound_vinhack;
+package com.example.splashscreensample;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.compound_vinhack", appContext.getPackageName());
+        assertEquals("com.example.splashscreensample", appContext.getPackageName());
     }
 }
