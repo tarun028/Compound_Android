@@ -1,4 +1,4 @@
-package com.example.compound_vinhack;
+package com.example.splashscreensample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,8 +12,8 @@ public class perms extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perms);
-
         TextView deny = (TextView) findViewById(R.id.deny);
         deny.setPaintFlags(deny.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.compound_vinhack;
+package com.example.splashscreensample;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
@@ -23,7 +24,6 @@ public class SendOTPActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_otpactivity);
-
         final EditText inputMobile = findViewById(R.id.inputMobile);
         Button buttonGetOTP = findViewById(R.id.buttonGetOTP);
 
@@ -38,7 +38,6 @@ public class SendOTPActivity extends AppCompatActivity {
                 }
                 progressBar.setVisibility(View.VISIBLE);
                 buttonGetOTP.setVisibility(View.INVISIBLE);
-
                 PhoneAuthProvider.getInstance().verifyPhoneNumber("+91"+inputMobile.getText().toString(),
                         30, TimeUnit.SECONDS,
                         SendOTPActivity.this,
